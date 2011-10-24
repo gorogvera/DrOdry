@@ -1,0 +1,6 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>pixx/logo.png</file>
+     <file>pixx/logonarancs.png</file>
+ </qresource>
+ </RCC>
