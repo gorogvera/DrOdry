@@ -2,11 +2,16 @@
 #define STARTPAGE_H
 
 #include <QMainWindow>
+#include "ui_startpage.h"
 
-class startpage : public QMainWindow
+class Startpage : public QMainWindow
 {
 public:
-    startpage();
+    Startpage(QWidget *parent=0);
+    ~Startpage();
+
+private:
+    Ui::MainWindow ui;
 };
 
 #endif // STARTPAGE_H
